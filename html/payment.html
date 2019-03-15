@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/payment.css">
+    <script src="../tool/js/jquery.min.js" language="JavaScript"></script>
+    <script src="../tool/js/language.js"></script>
+    <script src="../tool/js/jquery.i18n.properties-min.js"></script>
+    <script src="../tool/js/rem.js"></script>
+    <script src="../tool/js/test.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class='title'>
+        <div class="iconfont icon-jiantou" onclick='toBackCar()'></div>
+        <div class="i18n" name="Payment method">支付方式</div>
+    </div>
+</div>
+<div class='body'>
+    <div class='paymentnumber'>
+        <div class='box i18n' name="Amount payable">应付金额</div>
+        <div class='box' id="allCount"> <span class="i18n" name="Symbol"></span>
+
+        </div>
+    </div>
+    <div class='paytitle i18n' name="Payment options">支付方式选择</div>
+    <div class="paycategory">
+        <div class="payleft " onclick='activeClick(1)'>
+            <div class='imageWeixin'></div>
+            <div class='iconfont icon-duigou active1 active'></div>
+            <div class='payname i18n' name="WeChat">微信</div>
+        </div>
+        <div class="payright " onclick='activeClick(2)'>
+            <div class='imageXianjin'></div>
+            <div class='iconfont icon-duigou active2 active'></div>
+            <div class='payname i18n' name="cash">现金</div>
+
+        </div>
+    </div>
+    <div class="button i18n" name="Submission of payment" onclick="payOrder()">提交支付</div>
+
+</body>
+<script src="../tool/js/payment.js"></script>
+</html>

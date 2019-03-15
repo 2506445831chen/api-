@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/search.css">
+    <script src="../tool/js/jquery.min.js" language="JavaScript"></script>
+    <script src="../tool/js/language.js" ></script>
+    <script src="../tool/js/jquery.i18n.properties-min.js"></script>
+    <script src="../tool/js/rem.js"></script>
+    <script src="../tool/js/test.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class='title'>
+        <div class="iconfont icon-jiantou" onclick='toCategory()'></div> <span class="i18n" name="search dishes">菜品搜索</span>
+    </div>
+</div>
+<div class="body">
+    <div class='search'>
+        <div class='box'>
+            <div class='iconfont icon-sousuo'></div>
+            <input type="text" class='input' onchange="searchwords()" >
+            <div class='iconfont icon-guanbi' style="background: #FCFCFC;"></div>
+        </div>
+        <div class="button i18n" name="search" onclick='searchAll()'>搜索</div>
+    </div>
+    
+    <div class='heat  i18n' name="hot search dishes">热搜菜品推荐
+    </div>
+    <div class='list'>
+        <div class="li">扬州拉面</div>
+        <div class="li">蛋挞</div>
+    </div>
+    <div class="noresult" style="display: none">
+        <div class='noresult-image'></div>
+        <div class='inforam i18n' name="No dishes were found" >没有找到你要的菜品</div>
+    </div>
+</div>
+</body>
+<script src="../tool/js/search.js"></script>
+</html>

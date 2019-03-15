@@ -1,0 +1,132 @@
+{
+  "html/information.html": {
+    "href": "html/information.html",
+    "resources": [
+      "tool/js/information.js",
+      "css/information.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "html/payment.html": {
+    "href": "html/payment.html",
+    "resources": [
+      "tool/js/payment.js",
+      "css/payment.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js"
+    ],
+    "refer": [
+      "html/car.html",
+      "html/information.html"
+    ],
+    "priority": 0
+  },
+  "html/remark.html": {
+    "href": "html/remark.html",
+    "resources": [
+      "tool/js/remark.js",
+      "css/remark.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js"
+    ],
+    "refer": [
+      "html/car.html"
+    ],
+    "priority": 0
+  },
+  "html/car.html": {
+    "href": "html/car.html",
+    "resources": [
+      "tool/js/car.js",
+      "css/car.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js"
+    ],
+    "refer": [
+      "html/category.html",
+      "html/payment.html",
+      "html/remark.html"
+    ],
+    "priority": 0
+  },
+  "html/details.html": {
+    "href": "html/details.html",
+    "resources": [
+      "tool/js/details.js",
+      "css/details.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js"
+    ],
+    "refer": [
+      "html/category.html",
+      "html/car.html"
+    ],
+    "priority": 0
+  },
+  "html/search.html": {
+    "href": "html/search.html",
+    "resources": [
+      "tool/js/search.js",
+      "css/search.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js"
+    ],
+    "refer": [
+      "html/category.html",
+      "html/details.html"
+    ],
+    "priority": 0
+  },
+  "html/category.html": {
+    "href": "html/category.html",
+    "resources": [
+      "tool/js/category.js",
+      "css/category.css",
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js",
+      "tool/js/test.js",
+      "img/i18n.png"
+    ],
+    "refer": [
+      "html/details.html",
+      "html/search.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "tool/js/jquery.min.js",
+      "tool/js/language.js",
+      "tool/js/jquery.i18n.properties-min.js",
+      "tool/js/rem.js"
+    ],
+    "refer": [
+      "html/category.html"
+    ],
+    "priority": 0
+  }
+}

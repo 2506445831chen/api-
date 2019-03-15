@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top {
+    width: 15rem;
+    height: 2.64rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0 0 0.06rem 0 rgba(0, 0, 0, 0.3);
+}
+.icon-jiantou{
+    color: #585858;
+    width: 0.44rem;
+    height: 0.76rem;
+    padding-left: 0.7rem;
+    background:  url("../img/back.png") no-repeat center center;
+    background-size:0.44rem 0.76rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    width:9rem;
+    height:0.7rem;
+    font-size:0.72rem;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(88,88,88,1);
+    padding-left:0.62rem;
+    padding-top: 1.4rem;
+}
+.body {
+    width: 15rem;
+    height: 100%;
+    background: #fafafa;
+}
+.paymentnumber {
+    box-sizing: border-box;
+    padding: 0 0.64rem;
+    display: flex;
+    width: 100%;
+    height: 1.92rem;
+    align-items: center;
+    background: #ffffff;
+    border-top:0.04rem solid#E5E5E5;
+    justify-content: space-between;
+    box-shadow: 0 0.2rem 0.4rem 0.1rem rgba(0, 0, 0, 0.05);
+}
+
+.box {
+    font-size: 0.64rem;
+    color: #8d8d8d;
+    display: flex;
+}
+
+.paytitle {
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.16rem;
+    font-size: 0.6rem;
+    color: #b4b4b4;
+    line-height: 2.16rem;
+    padding-left: 0.64rem;
+}
+
+.paycategory {
+    width: 100%;
+    height: 3.8rem;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.05);
+}
+
+.payleft {
+    position: relative;
+    width: 7.48rem;
+    height: 100%;
+    display: flex;
+    border-right: 0.04rem solid #E5E5E5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.payleft.active {
+    position: relative;
+    width: 7.48rem;
+    height: 100%;
+    display: flex;
+    border: 0.04rem solid#019fe8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payright {
+    position: relative;
+    width: 7.48rem;
+    height: 100%;
+    display: flex;
+    color:#01e827;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 0.04rem solid #E5E5E5;
+}
+.payright.active{
+    position: relative;
+    width: 7.48rem;
+    height: 100%;
+    display: flex;
+    color:#01e827;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.04rem solid#019fe8;
+}
+
+.imageWeixin {
+    width: 1.36rem;
+    height: 1.36rem;
+    background:  url("../img/weixin.png") no-repeat center center;
+    background-size:1.36rem 1.36rem;
+}
+.imageXianjin {
+    width: 1.36rem;
+    height: 1.36rem;
+    background:  url("../img/xianjin.png") no-repeat center center;
+    background-size:1.36rem 1.36rem;
+}
+.iconfont.icon-duigou{
+   width: 1.54rem;
+    height: 1.54rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:  url("../img/duigou.png") no-repeat center center;
+    background-size:1.54rem 1.54rem;
+}
+.icon-duigou.active{
+    display: none;
+}
+.payleft .payname {
+    font-size: 0.64rem;
+    color:#01e827;
+}
+.payright .payname {
+    font-size: 0.64rem;
+    color: #019fe8;
+}
+.last{
+    width: 100%;
+    height: 1.92rem;
+    background: #ffffff;
+    padding-left:0.64rem;
+    display: flex;
+    box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.05);
+}
+.lastleft{
+    padding-left:0.64rem;
+    height: 100%;
+    line-height: 1.92rem;
+    font-size: 0.68rem;
+    color: #8D8D8D;
+}
+.iconfont.icon-wallet{
+    width: 0.84rem;
+    height: 100%;
+    font-size: 1.36rem;
+    color: #019fe8;
+}
+.button {
+    margin-top: 1.04rem;
+    margin-left:0.64rem;
+    width: 13.72rem;
+    height: 1.8rem;
+    text-align: center;
+    line-height: 1.8rem;
+    background: #edc954;
+    font-size: 0.72rem;
+    color: #fff;
+}

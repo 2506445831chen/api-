@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.body{
+    width: 15rem;
+    background: #fafafa;
+}
+
+.top {
+    width: 15rem;
+    height: 2.64rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0 0 0.06rem 0 rgba(0, 0, 0, 0.3);
+}
+.icon-jiantou{
+    color: #585858;
+    width: 0.44rem;
+    height: 0.76rem;
+    padding-left: 0.7rem;
+    background:  url("../img/back.png") no-repeat center center;
+    background-size:0.44rem 0.76rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    width:9rem;
+    height:0.7rem;
+    font-size:0.72rem;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(88,88,88,1);
+    padding-left:0.62rem;
+    padding-top: 1.4rem;
+}
+.payshow.show{
+    width: 15rem;
+    height: 2.64rem;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 0 0.64rem;
+    box-sizing: border-box;
+    box-shadow: 0  0.04rem 0.2rem #EAEAEA;
+}
+.icons{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.72rem;
+    color: #8A8A8A;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.icon-guanbi{
+    width: 1rem;
+    height: 1rem;
+    margin-right:1rem;
+    background: url("../img/quxiao.png") no-repeat center center;
+    background-size: 1rem 1rem;
+}
+.payshow{
+    width: 15rem;
+    height: 3.52rem;
+    background: #FFFFFF;
+    padding: 0 0.64rem;
+    box-sizing: border-box;
+    box-shadow: 0  0.04rem 0.2rem #EAEAEA;
+}
+.payshow.fail{
+    width: 100%;
+    height: 2.64rem;
+    background: #FFFFFF;
+    padding: 0 0.64rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0  0.04rem 0.2rem #EAEAEA;
+}
+.icon{
+    padding-top:0.8rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.72rem;
+    color: #8A8A8A;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.icon-right-1{
+    width: 1rem;
+    height: 1rem;
+    margin-right:1rem;
+    background: url("../img/quxiao.png") no-repeat center center;
+    background-size: 1rem 1rem;
+}
+ .icon .wait{
+    width: 1rem;
+    height: 1rem;
+    margin-right:1rem;
+    background: url("../img/warit.png") no-repeat center center;
+    background-size: 1rem 1rem;
+}
+
+.word{
+    width: 100%;
+    box-sizing:border-box;
+    padding-left: 2rem;
+    font-size: 0.56rem;
+    color: #CACACA;
+}
+/*等待取餐信息*/
+.underLine{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+}
+.orderFood{
+    width: 2.26rem;
+    height: 1.64rem;
+    margin-right:1rem;
+    margin-left: 1.74rem;
+    background: url("../img/pot.png") no-repeat center center;
+    background-size: 2.26rem 1.64rem;
+}
+.orderNumber{
+    font-size:0.64rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(239,212,124,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.orderSpan{
+    display: flex;
+    color: #019FE8;
+    align-items: center;
+}
+.underLine .word{
+    padding: 0;
+}
+/* 支付信息 */
+.boxorder{
+    margin-top: 1rem;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0  0.04rem 0.2rem #EAEAEA;
+    padding:0 0.64rem;
+    box-sizing: border-box;
+}
+.shopname{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.64rem;
+    line-height: 1.88rem;
+    color:#585858;
+    border-bottom:0.04rem solid #F7F7F7;
+}
+.orderinformation{
+    width: 100%;
+    height: 1.44rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    width: 4rem;
+}
+.share{
+    font-size: 0.6rem;
+    color: #CACACA;
+}
+.price{
+    font-size: 0.52rem;
+    color: #CACACA;
+}
+.count{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:0.04rem solid #F7F7F7;
+    border-top: 0.04rem solid #F7F7F7;
+}
+.num{
+    font-size: 0.52rem;
+    color: #CACACA;
+}
+.paycount{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 支付号码信息 */
+.consumption{
+    margin-top: 1rem;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0  0.04rem 0.2rem #EAEAEA;
+    padding:0 0.64rem;
+    box-sizing: border-box;
+
+}
+.table{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:0.04rem solid #F7F7F7;
+}
+.payway{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:0.04rem solid #F7F7F7;
+}
+.time{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:0.04rem solid #F7F7F7;
+}
+.ordernumber{
+    width: 100%;
+    height: 1.88rem;
+    font-size: 0.6rem;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

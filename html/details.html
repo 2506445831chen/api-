@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/details.css">
+    <script src="../tool/js/jquery.min.js" language="JavaScript"></script>
+    <script src="../tool/js/language.js"></script>
+    <script src="../tool/js/jquery.i18n.properties-min.js"></script>
+    <script src="../tool/js/rem.js"></script>
+    <script src="../tool/js/test.js"></script>
+</head>
+<body>
+<ul class="screen" style="display: none;" onclick="toNormal()"></ul>
+<ul class="bottomCar" style="display: none;">
+    <ul class="delete" onclick="oderAlertBox()">
+     <li class="clear_picture"></li>
+     <li class="img"></li>
+        <span class="i18n" name="empty cart">清空购物车</span>
+    </ul>
+    <ul class="boxlicar"></ul>
+</ul>
+
+<ul class="deleteScreen" style="display: none">
+    <ul class="box">
+        <li class="title i18n" name="Are you sure you want to empty the shopping cart">确定要清空购物车么？</li>
+        <li class="buttonBox">
+            <span class="submit i18n" name="cancel" onclick="cancel()">取消</span>
+            <span class="submit submit1 i18n" name="empty" onclick="deleteOrder()">清空</span>
+        </li>
+    </ul>
+</ul>
+
+</body>
+<script src="../tool/js/details.js"></script>
+</html>

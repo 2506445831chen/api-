@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/remark.css">
+    <script src="../tool/js/jquery.min.js" language="JavaScript"></script>
+    <script src="../tool/js/language.js" ></script>
+    <script src="../tool/js/jquery.i18n.properties-min.js"></script>
+    <script src="../tool/js/rem.js"></script>
+    <script src="../tool/js/test.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class='title'>
+        <div class="iconfont icon-jiantou" onclick='toCar()'></div> <span class='i18n' name="remarks">备注</span>
+    </div>
+</div>
+<div class='body'>
+    <div class='content'>
+    <textarea class="box i18-input" selectattr="placeholder" selectname="Please enter your other requirements" id="input"  onchange="remarkwords()"  maxlength='50'>
+    </textarea>
+    </div>
+    <div class='button i18n' name="sure" onclick='information()'>确定</div>
+</div>
+</body>
+<script src="../tool/js/remark.js"></script>
+</html>

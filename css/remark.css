@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top {
+    width: 15rem;
+    height: 2.64rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0 0 0.06rem 0 rgba(0, 0, 0, 0.3);
+}
+.icon-jiantou{
+    color: #585858;
+    width: 0.44rem;
+    height: 0.76rem;
+    padding-left: 0.7rem;
+    background:  url("../img/back.png") no-repeat center center;
+    background-size:0.44rem 0.76rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    width:9rem;
+    height:0.7rem;
+    font-size:0.72rem;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(88,88,88,1);
+    padding-left:0.62rem;
+    padding-top: 1.4rem;
+}
+.content {
+    position: relative;
+    width: 15rem;
+    height: 6.64rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.4rem 0.8rem 0.4rem rgba(0, 0, 0, 0.05);
+
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 0.52rem;
+    font-size: 0.56rem;
+    font-family: PingFang-SC-Medium;
+    color: rgba(202, 202, 202, 1);
+    border: 0.04rem solid#E5E5E5;
+    width: 13.72rem;
+    height: 4.72rem;
+    outline: none;
+}
+
+.count {
+    position: absolute;
+    top: 4.74rem;
+    left: 12.86rem;
+    font-size: 0.48rem;
+    color: #e5e5e5;
+}
+
+.body {
+    width: 15rem;
+    height: 100vh;
+    background: #fafafa;
+}
+
+.button {
+    margin-top: 0.96rem;
+    margin-left: 0.68rem;
+    width: 13.72rem;
+    height: 1.8rem;
+    font-size: 0.68rem;
+    line-height: 1.8rem;
+    background: #edc954;
+    color: #fff;
+    text-align: center;
+}
